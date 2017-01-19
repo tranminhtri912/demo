@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements ChannelAdapter.It
     public void getFullDataRss() {
         // mDatabaseControl = new DatabaseControl(this);
         try {
-            mDatabaseControl.isCreatedDatabase();
+            //mDatabaseControl.isCreatedDatabase();
         } catch (IOException e) {
             e.printStackTrace();
         }
