@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements ChannelAdapter.It
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setupToolbar();
-        getFullDataRss();
+     //   getFullDataRss();
         initView();
     }
 
