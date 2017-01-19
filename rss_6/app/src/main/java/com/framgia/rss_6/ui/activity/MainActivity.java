@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-
+import com.framgia.rss_6.R;
 import com.framgia.rss_6.data.model.ChannelModel;
 import com.framgia.rss_6.data.model.DatabaseControl;
 import com.framgia.rss_6.data.model.LinkUrl;
@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity implements ChannelAdapter.It
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
      //   setupToolbar();
-   //      getFullDataRss();
+    //     getFullDataRss();
         //initView();
     }
 
     public void getFullDataRss() {
-        mDatabaseControl = new DatabaseControl(this);
+        // mDatabaseControl = new DatabaseControl(this);
         try {
             //mDatabaseControl.isCreatedDatabase();
         } catch (IOException e) {
