@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity implements ChannelAdapter.It
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
      //   setupToolbar();
-        getFullDataRss();
+   //      getFullDataRss();
         //initView();
     }
 
     public void getFullDataRss() {
         mDatabaseControl = new DatabaseControl(this);
         try {
-            mDatabaseControl.isCreatedDatabase();
+            //mDatabaseControl.isCreatedDatabase();
         } catch (IOException e) {
             e.printStackTrace();
         }
