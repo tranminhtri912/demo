@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-
+import com.framgia.rss_6.R;
 import com.framgia.rss_6.data.model.ChannelModel;
 import com.framgia.rss_6.data.model.DatabaseControl;
 import com.framgia.rss_6.data.model.LinkUrl;
@@ -50,10 +50,10 @@ public class MainActivity extends AppCompatActivity implements ChannelAdapter.It
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+      //  setContentView(R.layout.activity_main);
         setupToolbar();
-        getFullDataRss();
-        //initView();
+     //   getFullDataRss();
+        initView();
     }
 
     public void getFullDataRss() {
